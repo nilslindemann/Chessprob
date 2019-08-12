@@ -2,6 +2,8 @@
 
 This script transforms the formulas given in [this answer on Math Stack Overflow](https://math.stackexchange.com/questions/3318378/probability-of-duplicated-games-in-chess/3318496#3318496) to [Python](https://www.python.org/) code.
 
+The code was tested with Python 3.7.
+
 The _chessprob_ module has six functions, corresponding to the formulas in the above link. They calculate the probability that, in a (idealized) set of games ...
 
 * `identical_any()` - any two games are identical
