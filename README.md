@@ -13,7 +13,7 @@ The _chessprob_ module has six functions, corresponding to the formulas in the a
 * `identical_these_moves_pov_player()` - any of the games played by a specific player is identical to any of the games played by the other players and they have a specific move order
 * `identical_these_moves_pov_game()` - a specific game is identical to any other game, and they have a specific move order
 
-There are two formulas for each case, one exact formula and an approximation formula. The exact formula gives a precise result but can not calculate bigger inputs in a reasonable time (See the description for the factorial function in the below glossary for the reason why). The approximation formula (the default) is precise up to around five positions after the comma and can calculate even very big inputs in no time.
+There are two formulas for each case, one exact formula and an approximation formula. The exact formula gives a precise result but can not calculate bigger inputs in a reasonable time (See the description for the factorial function in the below glossary for the reason why). The approximation formula (the default) is precise up to around five positions after the first number which is not null, and it can calculate even very big inputs in no time.
 
 See the `example_usage.py` for an example.
 
