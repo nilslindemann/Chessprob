@@ -63,7 +63,7 @@ Variables:
 * **_N<sub>p</sub>_** = `POSSGAMES` = **_N_** ^ **_P_** = all possible different chess games that can be played, depending on **_N_** and **_P_**. Automatically calculated.
 * **_N<sub>c</sub>_** = `PLAYERS` = The amount of players who play games (originally computers). Set it with `set_options(players=<number>)`
 * **_N<sub>g</sub>_** = `GAMES` = The amount of games each player plays. Set it with `set_options(games=<number>)`
-* **_N<sub>a</sub>_** = `ALLGAMES` = **_N<sub>c</sub>_** * **_N<sub>g</sub>_** = all games played by all players. Automatically calculated.
+* **_N<sub>a</sub>_** = `ALLGAMES` = **_N<sub>c</sub>_** * **_N<sub>g</sub>_** / 2 = all games played by all players. Automatically calculated.
 
 Operators:
 

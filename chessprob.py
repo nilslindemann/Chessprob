@@ -25,7 +25,7 @@ def set_options(
             raise Exception(f'Please choose an even amount of players, not {players}.')
         PLAYERS = D(int(players))
     if games is not None: GAMES = D(int(games))
-    ALLGAMES = D(int(PLAYERS * GAMES))
+    ALLGAMES = D(int(PLAYERS * GAMES / 2))
 
     if choices is not None: CHOICES = D(choices)
     if depth is not None: DEPTH = D(depth)
@@ -58,7 +58,7 @@ POSSGAMES = D(int(CHOICES ** DEPTH))
 
 PLAYERS = D(1_500_000_000)
 GAMES = D(2_500)
-ALLGAMES = D(int(PLAYERS * GAMES))
+ALLGAMES = D(int(PLAYERS * GAMES / 2))
 
 PRECISION = 100
 getcontext().prec = PRECISION
